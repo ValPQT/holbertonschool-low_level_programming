@@ -10,20 +10,19 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-y	
 	printf(" %d \n", n);
 
 	if (n > 0)
 	{
-		printf("The number is positive \n");
+		printf("The number is positive \n", n);
 	}
 	else if (n < 0)
 	{
-		printf("The number is negative \n");
+		printf("The number is negative \n", n);
 	}
 	else
 	{
-		printf("The number is zero \n") ;
+		printf("The number is zero \n", n);
 	}
 	return (0);
 }

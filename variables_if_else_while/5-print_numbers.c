@@ -1,23 +1,18 @@
-#include<stdio.h>
-#include<stdlib.h>
-
+#include <stdio.h>
+#include <stdlib.h>
 /**
- *main - Entry Point
+ * main - Prints numbers.
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
-
-
 int main(void)
 {
 	char num;
 
 	for (num = 0; num <= 9; num++)
 	{
-			printf("%d", num);
+		printf("%d", num);
 	}
-
 	putchar('\n');
-
-		return (0);
+	return (0);
 }

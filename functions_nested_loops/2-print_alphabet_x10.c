@@ -5,7 +5,7 @@
  * Description: Cette fonction affiche les lettres de 'a' a 'z'
  * dix fois, chacune sur une nouvelle ligne.
  */
-Void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int i;
 	char l;

@@ -1,10 +1,10 @@
-#include<main.h>
+#include "main.h"
 
 int main(void)
 
 {
 	_putchar('_');
-		_puthcar('p');
+		_putchar('p');
 		_putchar('u');
 		_putchar('t');
 		_putchar('c');
@@ -13,4 +13,5 @@ int main(void)
 		_putchar('r');
 
 
-return (0);
+		return (0);
+}

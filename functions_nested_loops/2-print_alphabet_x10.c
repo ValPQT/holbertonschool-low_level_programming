@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * print-alphhabet_x10 - imprime l'alphabet en minuscules 10 fois
- *
- * Description: Cette fonction affiche les lettres de 'a' a 'z'
- * dix fois, chacune sur une nouvelle ligne.
- */
+  *print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+  *followed by a new line
+  *Return:0
+  */
 void print_alphabet_x10(void)
 {
 	int i;

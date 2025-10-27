@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * mul - multiplies two integers
- * @a - int multiplied by int b
- * @b - int multiplied by int a
- * Return - return the result of the multiplication
+ * @a: int to be multiplied to b
+ * @b: int to be multiplied to a
+ * Return: the result of the operation
  */
 int mul(int a, int b)
 {

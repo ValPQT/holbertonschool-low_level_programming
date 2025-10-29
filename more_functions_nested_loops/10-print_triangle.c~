@@ -1,0 +1,29 @@
+#include "main.h"
+
+void print_triangle(int size)
+
+{
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
+		int i;
+		int j;
+		int h;
+
+		for (i = 0; i < size; i++)
+		{
+			for (j = size ; j > 0 ; j--)
+			{
+					_putchar(' ');
+			}
+			for (h = 0; h < i ; h++)
+			{
+					_putchar('#');
+			}
+			_putchar('\n');
+		}
+	}
+}

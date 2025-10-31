@@ -2,11 +2,21 @@
 
 void print_rev(char *s)
 {
-	int i;
+	int i, j, k;
 
-	for (i = 0; str[i] != '\0'; i++)
+	i = 0;
+
+	while (s[i] != '\0')
 	{
-		_putchar(str[i]);
+		i++;
 	}
+
+	k = i;
+
+	for (j = k - 1; j >= 0; j--)
+	{
+		_putchar(s[j]);
+	}
+
 	_putchar('\n');
-}
+}0

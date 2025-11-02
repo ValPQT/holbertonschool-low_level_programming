@@ -3,22 +3,24 @@
 
 void rev_string(char *s)
 {
-	int i; j; k;
-	char temp;
+	int i, j;
+	char str[1000];
 
-	j = 0;
-	k = 0;
+	i = 0;
 
-        while (s[j] != '\0')
+	while (*(s + i) != 0)
 	{
-		j++;
+		str[i] = *(s + i);
+		i++;
 	}
-	k = j -1;
 
-	for (i = 0; i < j; i++)
+	j = i - 1;
+	i = 0;
+
+	while (j >= 0)
 	{
-		tmp = s[i];
-		s[i] = s[k];
-		s[k--] = tmp;
+		*(s + j) = str[i];
+		j--;
+		i++;
 	}
 }

@@ -1,17 +1,21 @@
 #include "main.h"
 
 /**
- * print_numbers - prints the numbers, from 0 to 9,
- * followed by a new line
+ * *_memset - fills memory with a constant byte
+ * @s: memory area to be filled
+ * @b: char to copy
+ * @n: number of times to copy b
+ *
+ * Return: pointer to the memory area s
  */
-void print_numbers(void)
+char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
+	unsigned int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < n; i++)
 	{
-		_putchar(i + '0');
+		s[i] = b;
 	}
 
-	_putchar('\n');
+	return (s);
 }

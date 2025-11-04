@@ -3,10 +3,11 @@
 
 void _puts_recursion(char *s)
 {
-	int i;
-
-	for (i = 0; i < *s; i++)
+	if (*s == '\0')
 	{
-		puts("Puts with recursion \n");
+		_putchar('\n');
+		return;
 	}
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }

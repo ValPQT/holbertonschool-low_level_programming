@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - check the code
  *
@@ -13,8 +13,6 @@ int main(void)
     return (0);
 }
 */
-#include "main.h"
-#include <stdio.h>
 
 /**
  * main - check the code

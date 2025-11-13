@@ -3,11 +3,8 @@
 #include "dog.h"
 
 /**
- * init_dog - initializes a variable of type struct dog
- * @d: pointer to struct dog to initialize
- * @name: name to initialize
- * @age: age to initialize
- * @owner: owner to initialize
+ * print_dog - prints a struct dog
+ * @d: struct dog to print
  */
 void print_dog(struct dog *d)
 {
